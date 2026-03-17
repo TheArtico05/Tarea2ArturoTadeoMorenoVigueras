@@ -284,6 +284,7 @@ button {
     display: flex;
     /* ERROR 6: Los elementos del nav no están alineados verticalmente al centro
        PISTA: Falta una propiedad de flexbox que alinea items en el eje transversal */
+    align-items: center;
     justify-content: space-between;
     height: 100%;
 }
@@ -325,6 +326,7 @@ button {
     width: 0;
     height: 2px;
     background: var(--gradient-primary);
+    transition: width var(--transition-base);
     /* ERROR 7 (AVANZADO): La línea debajo del link aparece de golpe sin animación
        SOLUCIÓN: Falta la transición para la propiedad width
        Agregar: transition: width var(--transition-base);
