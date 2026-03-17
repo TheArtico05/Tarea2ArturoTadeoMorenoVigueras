@@ -1023,6 +1023,7 @@ button {
 .contact__card {
     /* ERROR 18: La card de contacto no tiene el fondo degradado
        PISTA: Falta la propiedad background con el gradiente primario */
+    background: var(--gradient-primary);
     border-radius: var(--border-radius-xl);
     padding: var(--spacing-2xl);
     text-align: center;
