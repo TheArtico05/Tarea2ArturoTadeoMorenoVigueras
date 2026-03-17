@@ -162,6 +162,7 @@ button {
     max-width: 1200px;
     /* ERROR 3: El contenido no está centrado en la página
        PISTA: Falta una propiedad que centra elementos de bloque horizontalmente */
+    margin: 0 auto;
     padding: 0 var(--spacing-lg);
 }
 
