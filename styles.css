@@ -1085,6 +1085,7 @@ button {
 .footer__social {
     /* ERROR 16: Los iconos de redes sociales del footer están apilados verticalmente
        PISTA: Falta la propiedad display que permite alinear elementos en fila */
+    display: flex;
     gap: var(--spacing-md);
 }
 
